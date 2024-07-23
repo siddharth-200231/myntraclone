@@ -16,7 +16,12 @@ a{
     color: #282c3f;
     font-weight: 700;
     padding: 0px 17px 28px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    background-color: transparent;
+    transition: all 0.1s ease-in-out 0s;
+}
+a:hover{
+    border-bottom: 4px solid rgb(244,28,178);
 }
 .supp{
     color: red;
