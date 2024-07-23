@@ -16,6 +16,7 @@ a{
     color: #282c3f;
     font-weight: 700;
     padding: 0px 17px 28px;
+    font-size: 0.9rem;
 }
 .supp{
     color: red;
@@ -61,3 +62,11 @@ input{
    align-content: center;
    height: 100;
 } */
+ @media (max-width:1150px) {
+    header a{
+        font-size: 0.7rem;
+    }
+    input{
+        size: 20;
+    }
+ }
