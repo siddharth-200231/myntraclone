@@ -238,6 +238,9 @@
       align-items: center;
       padding: 5px;
     }
+    .banner_img{
+        height: 30vh;
+    }
   
     .logo_container {
       margin-left: 0;
