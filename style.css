@@ -105,7 +105,18 @@
     max-height: 5em;
     font-weight: 700;
 }
-  
+.category_items{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+  .items{
+    height: 242px;
+    width: 165px;
+  }
   
   @media (max-width: 1150px) {
     header a {
