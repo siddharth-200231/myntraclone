@@ -192,6 +192,9 @@
       max-width: 400px;
       margin: 10px 0;
     }
+    .banner_img{
+        height: 30vh;
+    }
   
     .action_bar {
       width: 90%;
