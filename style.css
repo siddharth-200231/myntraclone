@@ -6,7 +6,7 @@
   header {
     display: flex;
     height: 80px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: #282c3f;
@@ -16,10 +16,12 @@
     text-decoration: none;
     color: #282c3f;
     font-weight: 700;
-    padding: 0px 17px 28px;
+    padding: 0px 20px 20px;
     /* font-size: 0.85rem; */
+    font-size: 14px;
     background-color: transparent;
     transition: all 0.1s ease-in-out 0s;
+    letter-spacing: .3px;
   }
   
   a:hover {
@@ -92,7 +94,18 @@
   .banner_img{
     height: 100%;
     width: 100%;
+    /* padding: 10px */
   }
+  .category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+  
   
   @media (max-width: 1150px) {
     header a {
