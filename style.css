@@ -6,7 +6,7 @@
   header {
     display: flex;
     height: 80px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: #282c3f;
@@ -63,6 +63,7 @@
     height: 40px;
    grid-template-columns: 1fr 1fr 1fr;
    align-items: center;
+   /* margin-right: 10px */
   }
   
   input {
@@ -79,6 +80,7 @@
   }
   .a_items{
     text-align: center;
+    font-weight: 600;
   }
   
   
