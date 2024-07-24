@@ -85,7 +85,14 @@
     font-weight: 600;
     padding: 0px 10px;
   }
-  
+  .banner_container{
+    width: 100vw;
+    height: 60vh;
+  }
+  .banner_img{
+    height: 100%;
+    width: 100%;
+  }
   
   @media (max-width: 1150px) {
     header a {
