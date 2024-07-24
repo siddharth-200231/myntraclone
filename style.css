@@ -23,6 +23,7 @@
     background-color: transparent;
     transition: all 0.1s ease-in-out 0s;
     letter-spacing: .3px;
+    display: inline-block;
   }
   
   a:hover {
@@ -118,7 +119,8 @@
     height: 242px;
     width: 165px;
   }
-  /* Media Queries for responsiveness */
+/* Media Queries for responsiveness */
+/* Media Queries for responsiveness */
 @media (max-width: 1150px) {
     header a {
       font-size: 0.7rem;
@@ -178,32 +180,112 @@
       flex-direction: column;
       height: auto;
       padding: 10px;
+      align-items: center;
+    }
+  
+    .logo_container {
+      margin-left: 0;
     }
   
     .search_bar {
-      width: 100%;
+      width: 90%;
+      max-width: 400px;
       margin: 10px 0;
     }
   
     .action_bar {
-      width: 100%;
-      grid-template-columns: repeat(3, 1fr);
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
       margin-top: 10px;
     }
   
+    .action_bar a {
+      padding: 0 8px;
+      font-size: 14px;
+    }
+  
     .category_heading {
-      font-size: 1.5em;
+      font-size: 1.4em;
       margin: 20px 0;
+      text-align: center;
+    }
+  
+    .category_items {
+      flex-direction: column;
+      align-items: center;
     }
   
     .items {
       height: auto;
       width: 100%;
-      max-width: 150px;
+      max-width: 160px;
+      margin: 10px 5px;
     }
-    .category_items{
-        justify-content: center;
-        align-items: center;
+  
+    .banner_container {
+      height: auto;
+      padding: 0;
     }
   }
+  
+  @media (max-width: 380px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+    }
+  
+    .logo_container {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .search_bar {
+      width: 90%;
+      max-width: 320px;
+      margin: 10px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  
+    .action_bar {
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+  
+    .action_bar a {
+      padding: 0 5px;
+      font-size: 11px;
+    }
+  
+    .category_heading {
+      font-size: 1.2em;
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .category_items {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 10px;
+    }
+  
+    .items {
+      height: auto;
+      width: 100%;
+      max-width: 120px;
+      margin: 5px;
+      text-align: center;
+    }
+  
+    .banner_container {
+      height: auto;
+      padding: 0 5px;
+    }
+  }
+  
+  
   
